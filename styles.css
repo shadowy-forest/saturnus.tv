@@ -154,8 +154,20 @@ h2 {
     max-width: 800px;
 }
 
+.disclaimer a {
+    color: #ff00ff;
+    text-decoration: none;
+    text-shadow: 0 0 3px #ff00ff;
+    transition: all 0.3s ease;
+}
+
+.disclaimer a:hover {
+    color: #b388ff;
+    text-shadow: 0 0 5px #b388ff;
+}
+
 .legal-disclaimer {
-    font-size: clamp(0.6rem, 1.8vw, 0.8rem);
+    font-size: clamp(0.4rem, 1.5vw, 0.5rem);
     color: #a020f0;
     text-shadow: 0 0 3px #a020f0;
     position: fixed;
@@ -174,10 +186,16 @@ h2 {
 }
 
 .legal-disclaimer a {
-    text-decoration: underline;
-    text-shadow: 0 0 3px #6936d9;
+    color: #ff00ff;
+    text-decoration: none;
+    text-shadow: 0 0 3px #ff00ff;
+    transition: all 0.3s ease;
 }
 
+.legal-disclaimer a:hover {
+    color: #b388ff;
+    text-shadow: 0 0 5px #b388ff;
+}
 
 .break {
     display: block;
